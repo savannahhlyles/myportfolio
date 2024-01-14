@@ -30,12 +30,7 @@ nav {
 
 @font-face {
     font-family: Roboto Lt;
-    src: url(/Roboto-Light.ttf);
-}
-
-@font-face {
-    font-family: Eklektyk;
-    src: url(/Eklektyk.ttf);
+    src: url("/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Roboto-Light.ttf");
 }
 
 #name {
@@ -49,9 +44,8 @@ nav {
     font-size: 45px;
     font-weight: 600;
     color: rgb(201, 233, 255);
-    font-family: Eklektyk;
+    font-family: Roboto Lt;
     transition: 0.3s ease-in-out;
-    letter-spacing: 8px;
   }
 
 #name a:hover{
