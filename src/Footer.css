@@ -1,0 +1,25 @@
+/* Add fading on-scroll effect */
+
+:root {
+    margin: 0;
+    padding: 0;
+  }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(27, 11, 41);
+    color: white;
+    text-align: center;
+    height: 65px;
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+    padding-top: 0.5%;
+    justify-content: center;
+    gap: 10px;
+  }
