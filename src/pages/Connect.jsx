@@ -2,7 +2,7 @@ import React from 'react';
 import './Connect.css';
 import Footer from './Footer';
 
-export default function Conncet() {
+export default function Connect() {
     return (
         <div className="flexbox-container">
             <p>connect</p>
