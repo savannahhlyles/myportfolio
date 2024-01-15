@@ -28,21 +28,15 @@
   width: 100%;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   overflow: auto;
   padding-bottom: 100px;
 }
 
 .flexbox-container p {
-  text-align: center;
-  align-items: center;
   line-height: 2.25;
-  font-family: Roboto Lt;
-  font-size: 20px;
   color: rgb(201, 233, 255);
   text-shadow: 1px 1px 10px black;
+  font-family: Roboto Lt;
 }
 
 .flexbox-container h1 {
