@@ -36,7 +36,7 @@ export default function Intro() {
 
     // Attach event listener to handle navigation on click
     const handleClick = () => {
-      window.location.href = '/#Home'; // Change the URL accordingly
+      window.location.href = 'https://savannahhlyles.github.io/myportfolio/#Home';
     };
 
     document.addEventListener('click', handleClick);
