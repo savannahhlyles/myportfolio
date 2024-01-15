@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Roboto Lt';
+    src: url(/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Roboto-Light.ttf);
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;   
+    width: 100%      
+}
+
+.flexbox-container p {
+    font-family: 'Roboto Lt';
+}
+
+#hello {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#click {
+    font-size: 30px;
+    margin-top: -5%;
+}
+
+.typewriter-container {
+    position: relative;
+  }
+  
+  .cursor {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .cursor-fade {
+    opacity: 0;
+  }
+  
