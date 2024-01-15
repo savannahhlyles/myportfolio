@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Roboto Lt';
+  src: url('../fonts/Roboto-Light.ttf');
+}
+
 :root {
   font-family: Roboto Lt;
   line-height: 1.5;

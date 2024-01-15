@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Roboto Lt';
-    src: url(/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Roboto-Light.ttf);
+    src: url('../fonts/Roboto-Light.ttf');
 }
 
 .flexbox-container {
