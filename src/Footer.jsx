@@ -1,7 +1,7 @@
 import './Footer.css';
-import github from "/Users/savannahlyles/Documents/workspace/myportfolio/src/images/logos/github.png";
-import gmail from "/Users/savannahlyles/Documents/workspace/myportfolio/src/images/logos/gmail.png";
-import linkedin from "/Users/savannahlyles/Documents/workspace/myportfolio/src/images/logos/linkedin.png";
+import github from './images/logos/github.png';
+import gmail from './images/logos/gmail.png';
+import linkedin from './images/logos/linkedin.png';
 
 function Footer(){
     return(
