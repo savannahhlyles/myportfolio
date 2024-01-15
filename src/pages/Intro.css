@@ -17,25 +17,37 @@
 }
 
 #hello {
-    font-size: 30px;
+    font-size: 150px;
+    margin-top: 120px;
     margin-bottom: 10px;
 }
 
 #click {
-    font-size: 30px;
+    font-size: 40px;
     margin-top: -5%;
 }
 
-.typewriter-container {
-    position: relative;
+.cursor-line {
+    display: inline-block;
+    width: 1px;
+    height: 1.2em; /* Adjust the height of the cursor line */
   }
   
-  .cursor {
-    opacity: 1;
-    transition: opacity 1s ease-in-out;
+  .cursor-line.visible {
+    visibility: visible;
   }
   
-  .cursor-fade {
-    opacity: 0;
+  .cursor-line.hidden {
+    visibility: hidden;
+  }
+  
+  @keyframes fadeOut {
+    to {
+      opacity: 0;
+    }
+  }
+  
+  .cursor-line {
+    animation: fadeOut 1s ease-out forwards; /* Adjust the duration for a smoother fade-out */
   }
   
