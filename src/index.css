@@ -1,10 +1,14 @@
 @font-face {
   font-family: 'Roboto Lt';
-  src: url('../fonts/Roboto-Light.ttf');
+  src: url('./fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito Lt';
+  src: url('./fonts/Nunito-Light.ttf');
 }
 
 :root {
-  font-family: Roboto Lt;
   line-height: 1.5;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -36,7 +40,6 @@
   line-height: 2.25;
   color: rgb(201, 233, 255);
   text-shadow: 1px 1px 10px black;
-  font-family: Roboto Lt;
 }
 
 .flexbox-container h1 {

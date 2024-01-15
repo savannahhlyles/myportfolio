@@ -13,7 +13,7 @@ export default function Intro() {
     AOS.init({ duration: 1000 });
 
     let index = 0;
-    const typingInterval = 150;
+    const typingInterval = 140;
     const cursorInterval = 500; // Blink interval for the cursor
     const blinkDuration = 3000; // Duration for the cursor to blink
     const fadeOutDelay = 2000; // Delay before cursor fade-out after blinking
