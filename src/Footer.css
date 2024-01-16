@@ -29,5 +29,5 @@
 }
 
 .flex img:hover {
-  filter: brightness(1.2) drop-shadow(0 0 10px rgba(166, 0, 255, 1));
+  filter: brightness(1.2) drop-shadow(0 0 10px rgb(255, 255, 255));
 }
