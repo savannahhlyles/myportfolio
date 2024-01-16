@@ -22,3 +22,12 @@
   justify-content: center;
   gap: 10px;
 }
+
+.flex img {
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.flex img:hover {
+  filter: brightness(1.2) drop-shadow(0 0 10px rgba(166, 0, 255, 1));
+}
