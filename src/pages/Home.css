@@ -21,7 +21,7 @@
 }
 
 #box2 {
-    background: linear-gradient(135deg, rgb(0, 102, 204) 0%, rgb(0, 204, 255) 100%);
+    background: linear-gradient(180deg, rgb(32,44,144) 0%, rgb(0, 149, 255) 100%);
     z-index: 0;
     margin-left: 0;
     width: 58%;
@@ -39,7 +39,7 @@
 
 @font-face {
     font-family: "Katahdin";
-    src: url("/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Katahdin.ttf");
+    src: url("src/fonts/Katahdin.ttf");
 }
 
 #content-container h1 {
@@ -60,8 +60,8 @@
     margin-bottom: 10px;
     margin-left: 50px;
     font-family: Nunito Lt;
-    font-size: 29px;
-    top: 453px;
+    font-size: 28px;
+    top: 457px;
     left: 712px;
   }
 
