@@ -25,8 +25,8 @@ export default function Home() {
     </div>
     <Footer />
   </div>
-  <div id="blurb-container">
-    <h1>is a first-year at <scan className="columbia">Columbia Engineering.</scan></h1>
+  <div id="blurb-container" data-aos="fade-up">
+    <h1>is a first-year at <scan className="columbia">Columbia.</scan></h1>
   </div>
   <div className="button-container">
     <button className="button">
