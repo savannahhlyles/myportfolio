@@ -7,7 +7,7 @@ nav {
     display: flex;
     justify-content: space-between;
     top: 0;
-    background-color: rgba(27, 11, 41, 0);
+    background-color: rgba(63, 60, 65, 0);
     width: 100%;
     z-index: 9999;
     animation: gradient_anim 23s ease infinite;
@@ -33,18 +33,23 @@ nav {
     src: url("/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Roboto-Light.ttf");
 }
 
+@font-face {
+    font-family: Rounded;
+    src: url("/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Rounded.ttf");
+}
+
 #name {
     display: flex;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 #name a {
     text-decoration:none;
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 600;
     color: rgb(201, 233, 255);
-    font-family: Roboto Lt;
+    font-family: "Rounded";
     transition: 0.3s ease-in-out;
   }
 
