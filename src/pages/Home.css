@@ -58,11 +58,10 @@
     position: absolute;
     color: rgb(201, 233, 255);
     margin-bottom: 10px;
-    margin-left: 50px;
+    margin-left: 40px;
     font-family: Nunito Lt;
-    font-size: 28px;
-    top: 457px;
-    left: 712px;
+    font-size: 20px;
+    top: 600px;
   }
 
 #blurb-container .columbia {
