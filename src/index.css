@@ -8,6 +8,11 @@
   src: url('./fonts/Nunito-Light.ttf');
 }
 
+@font-face {
+  font-family: Challenged;
+  src: ("/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Challenged.ttf");
+}
+
 :root {
   line-height: 1.5;
   color-scheme: light dark;
