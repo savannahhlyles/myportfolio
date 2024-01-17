@@ -10,7 +10,17 @@
 
 @font-face {
   font-family: Challenged;
-  src: ("/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Challenged.ttf");
+  src: ('./fonts/Challenged.ttf');
+}
+
+@font-face {
+  font-family: "Katahdin";
+  src: url("./fonts/Katahdin.ttf");
+}
+
+@font-face {
+  font-family: Rounded;
+  src: url("./fonts/Rounded.ttf");
 }
 
 :root {
