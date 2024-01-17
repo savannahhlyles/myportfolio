@@ -54,6 +54,21 @@
     color: #1d1d72;
 }
 
+#blurb-container {
+    position: absolute;
+    color: rgb(201, 233, 255);
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-family: Nunito Lt;
+    font-size: 30px;
+    top: 468px;
+    left: 720px;
+  }
+
+#blurb-container .columbia {
+    color: rgb(201, 233, 255);
+}
+
 .button {
     border-radius: 100px;
     background-color: rgb(109, 31, 146);
@@ -68,10 +83,13 @@
     cursor: pointer;
     margin-left: 39.5%;
     margin-top: 700px;
-    margin-bottom: 100px;
 }
 
 #explore h1 {
     margin-bottom: 100px;
     margin-left: 40%;
+    font-family: Nunito Lt;
+    font-size: 90px;
+    color: rgb(201, 233, 255);
 }
+

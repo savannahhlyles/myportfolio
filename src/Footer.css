@@ -13,6 +13,7 @@
   text-align: center;
   height: 65px;
   transition: opacity 0.5s ease; /* Add transition for smooth fading */
+  z-index: 999;
 }
 
 .flex {

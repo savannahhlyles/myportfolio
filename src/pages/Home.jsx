@@ -15,25 +15,28 @@ export default function Home() {
 
     return (
         <>
-            <div className="flexbox-container">
-                <NavigationBar />
-                <div id="box1" className="color-block" data-aos="fade-right"></div>
-                <div id="box2" className="color-block" data-aos="fade-left"></div>
-                <div id="content-container" data-aos="fade-up">
-                    <h1>Savann<span className="color-change">ah</span></h1>
-                    <h1>Lyles</h1>
-                </div>
-                <Footer />
-            </div>
-            <div className="button-container">
-                <button className="button">
-                    <span>Resume</span>
-                </button>
-            </div>
-            <div id="explore">
-            <h1>Explore</h1>
-            </div>
+  <div className="flexbox-container">
+    <NavigationBar />
+    <div id="box1" className="color-block" data-aos="fade-right"></div>
+    <div id="box2" className="color-block" data-aos="fade-left"></div>
+    <div id="content-container" data-aos="fade-up">
+      <h1>Savann<span className="color-change">ah</span></h1>
+      <h1>Lyles</h1>
+    </div>
+    <Footer />
+  </div>
+  <div id="blurb-container">
+    <h1>is a first-year at <scan className="columbia">Columbia Engineering.</scan></h1>
+  </div>
+  <div className="button-container">
+    <button className="button">
+      <span>Resume</span>
+    </button>
+  </div>
+  <div id="explore">
+    <h1>Explore!</h1>
+  </div>
+</>
 
-        </>
     );
 }
