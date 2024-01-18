@@ -23,9 +23,14 @@ export default function Home() {
       <h1>Savann<span className="color-change">ah</span></h1>
       <h1>Lyles</h1>
     </div>
-    <Footer />
   </div>
-  <div id="blurb-container">
+
+  <div id="boxes">
+    <div id="boxa" className="color-block"></div>
+    <div id="boxb" className="color-block"></div>
+    <div id="boxc" className="color-block"></div>
+  </div>
+  {/* <div id="blurb-container">
     <h1>
     Undergraduate @ <scan className="columbia">Columbia Engineering</scan> studying computer science.
     <br />Interests in full-stack SWE, design, and entrepreneurship.
@@ -39,7 +44,8 @@ export default function Home() {
   </div>
   <div id="explore">
     <h1>Explore!</h1>
-  </div>
+  </div> */}
+  <Footer />
 </>
 
     );
