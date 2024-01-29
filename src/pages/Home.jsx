@@ -4,6 +4,9 @@ import 'aos/dist/aos.css';
 import './Home.css';
 import Footer from "../Footer";
 import NavigationBar from '../NavigationBar';
+import crown from '../images/crowntransparent.png';
+import coding from '../images/coding.svg';
+import resume from '../images/resume.svg';
 
 export default function Home() {
     useEffect(() => {
@@ -30,12 +33,17 @@ export default function Home() {
     <div id="boxb" className="color-block"></div>
     <div id="boxc" className="color-block"></div>
   </div>
-  {/* <div id="blurb-container">
-    <h1>
-    Undergraduate @ <scan className="columbia">Columbia Engineering</scan> studying computer science.
-    <br />Interests in full-stack SWE, design, and entrepreneurship.
-    <br />Open to new opportunities!
-    </h1>
+
+  <div id="pictures">
+    <img src={crown} alt="Crown Image" id="crown"/>
+    <img src={coding} alt="Coding Image" id="coding"/>
+    <img src={resume} alt="Resume Image" id="resume"/>
+  </div>
+
+ <div id="blurb-container">
+    <div id="firstb">Undergraduate at <br />Columbia Engineering <br />studying computer science.</div>
+    <div id="secondb">Interests in < br /> full-stack SWE, design, < br /> and entrepreneurship.</div>
+    <div id="thirdb">Open to new < br /> opportunities!</div>
   </div>
   <div className="button-container">
     <button className="button">
@@ -44,7 +52,7 @@ export default function Home() {
   </div>
   <div id="explore">
     <h1>Explore!</h1>
-  </div> */}
+  </div>
   <Footer />
 </>
 

@@ -1,6 +1,7 @@
 #content-container {
     position: relative;
     z-index: 2; 
+    margin-top: -5%;
 }
 
 .color-block {
@@ -31,31 +32,28 @@
     box-shadow: 0 0 20px 5px rgba(8, 40, 63, 0.5);
 }
 
-#boxa {
-    background: rgb(0, 255, 8);
-    width: 100px;
-    height: 200px;
-    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
+#boxa {;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 40px 20px #8e0d34;
     margin-top: 700px;
     margin-left: 45px;
     margin-bottom: 500px;
 }
 
 #boxb {
-    background: rgb(255, 0, 0);
-    width: 100px;
-    height: 200px;
-    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 40px 20px #6f1c62;
     margin-top: 700px;
-    margin-left: 47%;
+    margin-left: 36%;
     margin-bottom: 500px;
 }
 
 #boxc {
-    background: rgb(255, 251, 0);
-    width: 100px;
-    height: 200px;
-    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 40px 20px rgb(0, 64, 110);
     margin-top: 700px;
     margin-right: 45px;
     margin-bottom: 500px;
@@ -101,35 +99,101 @@
     top: 600px;
   }
 
-#blurb-container .columbia {
-    color: rgb(201, 233, 255);
-}
-
-.button {
+  .button {
     border-radius: 100px;
-    background-color: rgb(109, 31, 146);
+    background-color: rgba(32, 43, 144, 0);
+    box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.356);
     border: none;
     color: rgb(201, 233, 255);
     text-align: center;
     font-family: Roboto Lt;
-    font-size: 50px;
+    font-size: 30px;
     padding: 10px;
-    width: 300px;
-    transition: all 0.5s;
+    width: 200px;
     cursor: pointer;
     margin-left: 39.5%;
-    margin-top: 700px;
+    margin-top: 20px;
+    overflow: hidden;
 }
 
-.button-container button {
-    margin-top: 850px;
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
 }
 
 #explore h1 {
-    margin-bottom: 100px;
     margin-left: 40%;
     font-family: Nunito Lt;
     font-size: 90px;
     color: rgb(201, 233, 255);
 }
 
+#pictures {
+    position: relative;
+    z-index: 3;
+}
+
+#pictures img {
+    position: absolute;
+    filter: invert(95%);
+}
+
+#crown {
+    width: 500px;
+    margin-top: -151%;
+    left: -0.6%;
+}
+
+#coding {
+    width: 320px;
+    margin-top: -150.5%;
+    left: 38.9%;
+}
+
+#resume {
+    width: 305px;
+    margin-top: -149.5%;
+    left: 73%;
+}
+
+#firstb {
+    margin-top: 34.8%;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 67%;
+}
+
+#secondb {
+    margin-top: -10.6%;
+    font-size: 30px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+#thirdb {
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    margin-top: -10.6%;
+    margin-left: 1070px;
+}
