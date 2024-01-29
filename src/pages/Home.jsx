@@ -50,9 +50,6 @@ export default function Home() {
       <span>Resume</span>
     </button>
   </div>
-  <div id="explore">
-    <h1>Explore!</h1>
-  </div>
   <Footer />
 </>
 
