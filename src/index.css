@@ -49,14 +49,27 @@
   display: flex;
   overflow: auto;
   padding-bottom: 70px;
-}
-
-.flexbox-container p {
-  line-height: 2.25;
   color: rgb(201, 233, 255);
   text-shadow: 1px 1px 10px black;
 }
 
-.flexbox-container h1 {
-  color: rgb(201, 233, 255);
+.flexbox-container p {
+  line-height: 2.25;
+  font-size: 20px;
+}
+
+.stocks {
+  position: absolute;
+  margin-top: -832px;
+  margin-left: 700px;
+}
+
+.flexbox-container a {
+  color: inherit; 
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.flexbox-container a:hover {
+  color: rgb(149, 178, 194);
 }
