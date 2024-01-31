@@ -60,9 +60,28 @@
 
 .stocks {
   position: absolute;
-  margin-top: -832px;
-  margin-left: 700px;
+  margin-top: -837px;
+  margin-left: 672px;
+  width: 450px;
+  height: 350px;
 }
+
+.contour {
+  position: absolute;
+  margin-top: -33%;
+  margin-left: 70px;
+  width: 450px;
+  height: 350px;
+}
+
+.site {
+  position: absolute;
+  margin-top: -102.5%;
+  width: 450px;
+  height: 350px;
+  margin-left: 70px;
+}
+
 
 .flexbox-container a {
   color: inherit; 
