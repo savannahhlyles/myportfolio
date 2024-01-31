@@ -3,6 +3,21 @@
     src: url('fonts/Nunito-Light.ttf');
   }
 
+.body {
+        line-height: 1.5;
+        color-scheme: light dark;
+        background-image: url('images/background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        font-family: 'Nunito Lt';
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+}
+
 #content-container {
     position: relative;
     z-index: 2; 
