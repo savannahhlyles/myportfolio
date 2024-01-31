@@ -1,9 +1,4 @@
 @font-face {
-  font-family: 'Roboto Lt';
-  src: url('./fonts/Roboto-Light.ttf');
-}
-
-@font-face {
   font-family: 'Nunito Lt';
   src: url('./fonts/Nunito-Light.ttf');
 }
@@ -16,11 +11,6 @@
 @font-face {
   font-family: "Katahdin";
   src: url("./fonts/Katahdin.ttf");
-}
-
-@font-face {
-  font-family: Rounded;
-  src: url("./fonts/Rounded.ttf");
 }
 
 :root {
