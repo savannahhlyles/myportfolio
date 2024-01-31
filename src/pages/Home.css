@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Nunito Lt';
+    src: url('fonts/Nunito-Light.ttf');
+  }
+
 #content-container {
     position: relative;
     z-index: 2; 
@@ -64,7 +69,7 @@
 
 @font-face {
     font-family: "Katahdin";
-    src: url("./fonts/Katahdin.ttf");
+    src: url("fonts/Katahdin.ttf");
 }
 
 #content-container h1 {
@@ -171,6 +176,7 @@
     font-size: 30px;
     text-align: center;
     margin-right: 67%;
+    font-family: 'Nunito Lt';
 }
 
 #secondb {
@@ -178,6 +184,7 @@
     font-size: 30px;
     margin-left: 100px;
     text-align: center;
+    font-family: 'Nunito Lt';
 }
 
 #thirdb {
@@ -186,4 +193,5 @@
     text-align: center;
     margin-top: -10.25%;
     margin-left: 1065px;
+    font-family: 'Nunito Lt';
 }
