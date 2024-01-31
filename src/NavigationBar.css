@@ -29,14 +29,14 @@ nav {
 }
 
 @font-face {
-    font-family: Roboto Lt;
-    src: url("/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Roboto-Light.ttf");
-}
+    font-family: 'Roboto Lt';
+    src: url('./fonts/Roboto-Light.ttf');
+  }
 
-@font-face {
+  @font-face {
     font-family: Rounded;
-    src: url("/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Rounded.ttf");
-}
+    src: url("./fonts/Rounded.ttf");
+  }
 
 #name {
     display: flex;
