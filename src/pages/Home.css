@@ -1,7 +1,8 @@
 #content-container {
     position: relative;
     z-index: 2; 
-    margin-top: -5%;
+    margin-right: 380px;
+    margin-top: -3%;
 }
 
 .color-block {
@@ -61,14 +62,9 @@
     padding-bottom: 1300px;
 }
 
-#content-container {
-    margin-right: 380px;
-    margin-top: -3%;
-}
-
 @font-face {
     font-family: "Katahdin";
-    src: url("src/fonts/Katahdin.ttf");
+    src: url("./fonts/Katahdin.ttf");
 }
 
 #content-container h1 {

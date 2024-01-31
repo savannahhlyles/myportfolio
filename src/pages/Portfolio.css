@@ -122,39 +122,3 @@
     .right {
     left: 0%;
     } */
-
-    .stocks {
-      position: absolute;
-      margin-top: -837px;
-      margin-left: 672px;
-      width: 450px;
-      height: 350px;
-    }
-    
-    .contour {
-      position: absolute;
-      margin-top: -33%;
-      margin-left: 70px;
-      width: 450px;
-      height: 350px;
-    }
-    
-    .site {
-      position: absolute;
-      margin-top: -102.5%;
-      width: 450px;
-      height: 350px;
-      margin-left: 70px;
-    }
-    
-    
-    .flexbox-container a {
-      color: inherit; 
-      text-decoration: none;
-      transition: 0.3s ease-in-out;
-    }
-    
-    .flexbox-container a:hover {
-      color: rgb(149, 178, 194);
-    }
-    
