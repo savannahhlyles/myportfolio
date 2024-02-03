@@ -114,10 +114,10 @@
     border-radius: 100px;
     background-color: rgba(32, 43, 144, 0);
     border: none;
-    color: rgb(201, 233, 255);
+    color: rgb(74, 181, 252);
     text-align: center;
-    font-family: Roboto Lt;
-    font-size: 25px;
+    font-family: Nunito Lt;
+    font-size: 30px;
     padding: 10px;
     width: 150px;
     cursor: pointer;
@@ -131,6 +131,11 @@
     display: inline-block;
     position: relative;
     transition: 0.5s;
+}
+
+.button a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .button span:after {
@@ -209,4 +214,21 @@
     margin-top: -10.25%;
     margin-left: 1065px;
     font-family: 'Nunito Lt';
+}
+
+#abt {
+    width: 800px;
+    position: absolute;
+    padding-right: 200px;
+    margin-left: 0;
+    padding-top: 120px;
+    padding-bottom: 110px;
+    margin-left: 28.7%;
+}
+
+.button-container-home a {
+    text-decoration: none;
+    color: #f269de;
+    font-family: 'Nunito Lt';
+    font-size: 30px;
 }

@@ -56,9 +56,16 @@ export default function Home() {
 
             <div className="button-container">
                 <button className="button" data-aos="fade-up" data-aos-delay="800">
-                    <span>Resume</span>
+                    <span><a href="src/assets/Resume.pdf" target="_blank">Resume</a></span>
                 </button>
             </div>
+
+            {/* <div className="button-container-home">
+                <button id="abt" className="button" data-aos="fade-up" data-aos-delay="800">
+                    <span><a href='/myportfolio/#/About'>Learn more about me.</a></span>
+                </button>
+            </div> */}
+
             <Footer />
         </>
     );
