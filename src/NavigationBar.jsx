@@ -11,7 +11,6 @@ function NavigationBar(){
                     <li><a href="#/Home">home</a></li>
                     <li><a href="#/About">about</a></li>
                     <li><a href="#/Portfolio">portfolio</a></li>
-                    <li><a href="#/Connect">connect</a></li>
                 </ul>
             </div>
         </nav>
