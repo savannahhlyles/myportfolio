@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Nunito Lt';
-    src: url('fonts/Nunito-Light.ttf');
+    src: url('/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Nunito-Light.ttf');
   }
 
 .body {
         line-height: 1.5;
         color-scheme: light dark;
-        background-image: url('images/background.jpg');
+        background-image: url('/Users/savannahlyles/Documents/workspace/myportfolio/src/images/background.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
