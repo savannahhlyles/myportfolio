@@ -31,7 +31,7 @@ export default function Portfolio() {
         <div className="container right" >
           <div className="content" data-aos="fade-right">
             <h1>January 2024</h1>
-            <h2><a href="https://savannahhlyles.github.io/myportfolio/" target="_blank">Portfolio Website</a></h2>
+            <h2><a href="https://github.com/savannahhlyles/myportfolio" target="_blank">Portfolio Website</a></h2>
             <p>
               Designed and developed this website, employing HTML, CSS, and JavaScript for implementation, while utilizing GitHub for version control and hosting.
             </p>
