@@ -56,7 +56,7 @@ export default function Home() {
 
             <div className="button-container">
                 <button className="button" data-aos="fade-up" data-aos-delay="800">
-                    <span><a href="./assets/Resume.pdf" target="_blank">Resume</a></span>
+                    <span><a href="/Users/savannahlyles/Documents/workspace/myportfolio/src/assets/Resume.pdf" target="_blank">Resume</a></span>
                 </button>
             </div>
 
