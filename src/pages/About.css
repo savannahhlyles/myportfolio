@@ -3,6 +3,10 @@
   src: url("./fonts/Nunito-Light.ttf");
 }
 
+.body {
+  background-image: url('../images/background.jpg');
+}
+
 .flexbox-container-about {
     position: absolute;
     box-sizing: border-box;
