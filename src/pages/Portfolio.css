@@ -83,7 +83,7 @@
   }
   
   @font-face {
-    font-family: Nunito Lt;
+    font-family: 'Nunito Lt';
     src: url("./fonts/Nunito-Light.ttf");
   }
 
@@ -93,7 +93,7 @@
     background-color: rgba(132, 82, 82, 0);
     position: relative;
     border-radius: 6px;
-    font-family: Nunito Lt;
+    font-family: 'Nunito Lt';
   }
   
 /* Media queries - Responsive timeline on screens less than 600px wide */
