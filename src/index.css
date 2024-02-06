@@ -16,7 +16,7 @@
 :root {
   line-height: 1.5;
   color-scheme: light dark;
-  background-image: url('./pages/background.jpg');
+  background-image: url('/Users/savannahlyles/Documents/workspace/myportfolio/src/pages/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
