@@ -1,22 +1,22 @@
 @font-face {
   font-family: 'Nunito Lt';
-  src: url('/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Nunito-Light.ttf');
+  src: url('./fonts/Nunito-Light.ttf');
 }
 
 @font-face {
-  font-family: Challenged;
-  src: ("/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Challenged.ttf");
+  font-family: "Challenged";
+  src: ("./fonts/Challenged.ttf");
 }
 
 @font-face {
   font-family: "Katahdin";
-  src: url("/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Katahdin.ttf");
+  src: url("./fonts/Katahdin.ttf");
 }
 
 :root {
   line-height: 1.5;
   color-scheme: light dark;
-  background-image: url('/Users/savannahlyles/Documents/workspace/myportfolio/src/images/background.jpg');
+  background-image: url('./images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
