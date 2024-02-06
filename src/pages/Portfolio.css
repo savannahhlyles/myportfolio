@@ -3,7 +3,7 @@
   }
   
   .body {
-    background-image: url('../images/background.jpg');
+    background-image: url('./background.jpg');
   }
 
   /* The actual timeline (the vertical ruler) */
