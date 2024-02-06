@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Nunito Lt';
-    src: url('/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Nunito-Light.ttf');
+    src: url('./fonts/Nunito-Light.ttf');
   }
   
   @font-face {
-    font-family: Challenged;
-    src: ("/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Challenged.ttf");
+    font-family: "Challenged";
+    src: ("./fonts/Challenged.ttf");
   }
   
   @font-face {
     font-family: "Katahdin";
-    src: url("/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Katahdin.ttf");
+    src: url("./fonts/Katahdin.ttf");
   }
   
   :root {
