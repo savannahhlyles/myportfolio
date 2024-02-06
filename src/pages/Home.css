@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Nunito Lt';
-    src: url('/Users/savannahlyles/Documents/workspace/myportfolio/src/fonts/Nunito-Light.ttf');
+    font-family: Nunito Lt;
+    src: url("./fonts/Nunito-Light.ttf");
   }
 
 .body {
@@ -84,7 +84,7 @@
 
 @font-face {
     font-family: "Katahdin";
-    src: url("fonts/Katahdin.ttf");
+    src: url("./fonts/Katahdin.ttf");
 }
 
 #content-container h1 {

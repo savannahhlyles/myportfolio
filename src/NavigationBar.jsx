@@ -1,5 +1,5 @@
 import './NavigationBar.css'
-function NavigationBar(){
+function NavigationBar() {
     return(
         <>
         <nav>

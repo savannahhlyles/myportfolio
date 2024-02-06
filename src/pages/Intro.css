@@ -7,6 +7,11 @@
     width: 100%      
 }
 
+@font-face {
+  font-family: Nunito Lt;
+  src: url("./fonts/Nunito-Light.ttf");
+}
+
 .flexbox-container p {
   font-family: Nunito Lt;
 }

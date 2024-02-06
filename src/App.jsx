@@ -5,6 +5,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Intro from './pages/Intro';
 import './index.css';
+import './App.css';
 
 
 function App() {
