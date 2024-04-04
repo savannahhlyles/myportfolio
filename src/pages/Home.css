@@ -53,7 +53,7 @@
     box-shadow: 0 0 20px 5px rgba(8, 40, 63, 0.5);
 }
 
-#boxa {;
+#boxa {
     width: 400px;
     height: 500px;
     box-shadow: 0 0 40px 20px #8e0d34;
@@ -79,6 +79,7 @@
 }
 
 #boxes {
+    transform: translateY(90px);
     padding-bottom: 1300px;
 }
 
@@ -122,8 +123,8 @@
     width: 150px;
     cursor: pointer;
     margin-left: 78%;
-    margin-top: -165px;
-    position: absolute;
+    top: -420px;
+    position: relative;
 }
 
 .button span {
@@ -165,31 +166,34 @@
 }
 
 #pictures {
-    position: absolute;
     z-index: 3;
 }
 
 #pictures img {
-    position: absolute;
     filter: invert(95%);
+    position: relative;
 }
 
 #crown {
     width: 500px;
-    margin-top: -592.5px;
-    left: -0.6%;
+    top: -597px;
+    left: -0.10%;
+    transform: translateY(90px);
 }
 
 #coding {
     width: 320px;
-    margin-top: -572px;
-    left: 90%;
+    left: 4.4%;
+    top: -585px;
+    transform: translateY(90px);
 }
 
 #resume {
     width: 305px;
-    margin-top: -570px;
-    left: 1048px;
+    margin-top: -900px;
+    top: -600px;
+    left: 15.5%;
+    transform: translateY(90px);
 }
 
 #firstb {
@@ -198,6 +202,7 @@
     text-align: center;
     margin-right: 67%;
     font-family: 'Nunito Lt';
+    transform: translateY(90px);
 }
 
 #secondb {
@@ -206,6 +211,7 @@
     margin-left: 100px;
     text-align: center;
     font-family: 'Nunito Lt';
+    transform: translateY(90px);
 }
 
 #thirdb {
@@ -215,6 +221,7 @@
     margin-top: -10.25%;
     margin-left: 1065px;
     font-family: 'Nunito Lt';
+    transform: translateY(90px);
 }
 
 #abt {
