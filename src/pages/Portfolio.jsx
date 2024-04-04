@@ -5,8 +5,10 @@ import './Portfolio.css';
 import Footer from '../Footer';
 import NavigationBar from '../NavigationBar';
 import stocks from '../images/stocks.avif';
-import contour from '../images/contour.jpg';
+import cell from '../images/cell.png';
 import site from '../images/site.png';
+import fourevyear from '../images/fourevyear.png';
+import poker from '../images/poker.png';
 
 export default function Portfolio() {
   useEffect(() => {
@@ -28,8 +30,29 @@ export default function Portfolio() {
     <div className="flexbox-container">
       <NavigationBar />
       <div className="timeline">
+
         <div className="container right" >
-          <div className="content" data-aos="fade-right">
+            <div className="content" data-aos="fade-right">
+              <h1>March 2024</h1>
+              <h2><a href="https://github.com/savannahhlyles/poker" target="_blank">Poker</a></h2>
+              <p>
+              Developed a Java-based poker game, showcasing proficiency in object-oriented programming <br /> fundamentals and game logic implementation. 
+              </p>
+            </div>
+        </div>
+
+        <div className="container left" >
+          <div className="content" data-aos="fade-left">
+              <h1>February 2024</h1>
+              <h2><a href="https://github.com/ceydat709/FourEvYear" target="_blank">FourEvYear</a></h2>
+              <p>
+              Contributed to the development of a comprehensive academic planning platform in under 24 hours, utilizing HTML, CSS, JavaScript, Node.js, and MySQL, demonstrating proficiency in full-stack development and database management.
+              </p>
+            </div>
+        </div>
+
+        <div className="container right" >
+          <div className="content" >
             <h1>January 2024</h1>
             <h2><a href="https://github.com/savannahhlyles/myportfolio" target="_blank">Portfolio Website</a></h2>
             <p>
@@ -37,8 +60,9 @@ export default function Portfolio() {
             </p>
           </div>
         </div>
+
         <div className="container left">
-          <div className="content" data-aos="fade-left">
+          <div className="content" >
             <h1>December 2023</h1>
             <h2><a href="https://github.com/savannahhlyles/stock-price-prediction" target="_blank">Stock Price Prediction With Random Forest Regression</a></h2>
             <p>
@@ -46,6 +70,7 @@ export default function Portfolio() {
             </p>
           </div>
         </div>
+
         <div className="container right">
           <div className="content">
             <h1>November 2023</h1>
@@ -56,9 +81,12 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <img src={stocks} alt="Stock Market Image" className="stocks" width="500" data-aos="fade-right"/>
-        <img src={contour} alt="Contour Lines Image" className="contour" width="500"/>
-        <img src={site} alt="Website Image" className="site" width="500" data-aos="fade-left"/>
+        <img src={stocks} alt="Stock Market Image" className="stocks" width="500" />
+        <img src={cell} alt="Cell Image" className="contour" />
+        <img src={site} alt="Website Image" className="site" width="500" />
+        <img src={fourevyear} alt="FourEvYear" className="fourevyear" width="500" data-aos="fade-right"/>
+        <img src={poker} alt="Poker" className="poker" width="500" data-aos="fade-left"/>
+      
       </div>
       <Footer />
     </div>

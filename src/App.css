@@ -66,7 +66,7 @@
   
   .contour {
     position: absolute;
-    margin-top: -33%;
+    margin-top: -30.5%;
     margin-left: 70px;
     width: 450px;
     height: 350px;
@@ -78,4 +78,20 @@
     width: 450px;
     height: 350px;
     margin-left: 70px;
+  }
+
+  .fourevyear {
+    position: absolute;
+    margin-top: -137%;
+    width: 450px;
+    height: 350px;
+    margin-left: 690px;
+  }
+
+  .poker {
+    position: absolute;
+    margin-top: -170%;
+    width: 450px;
+    height: 350px;
+    margin-left: 6%;
   }
