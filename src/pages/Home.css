@@ -179,21 +179,21 @@
     width: 500px;
     top: -380px;
     left: -0.10%;
-    transform: translateY(90px);
+    transform: translateY(130px);
 }
 
 #coding {
     width: 320px;
     left: 4.4%;
     top: -380px;
-    transform: translateY(90px);
+    transform: translateY(130px);
 }
 
 #resume {
     width: 305px;
     top: -380px;
     left: 15.5%;
-    transform: translateY(90px);
+    transform: translateY(130px);
 }
 
 #firstb {
