@@ -48,3 +48,52 @@
     font-family: 'Nunito Lt';
     font-size: 30px;
 }
+
+
+.button-about {
+  border-radius: 100px;
+  background-color: rgba(32, 43, 144, 0);
+  border: none;
+  color: rgb(74, 181, 252);
+  text-align: center;
+  font-family: Nunito Lt;
+  font-size: 30px;
+  padding: 10px;
+  width: 150px;
+  cursor: pointer;
+  margin-left: 78%;
+  top: 106.5%;
+  position: relative;
+  margin-bottom: -20px;
+}
+
+.button-about span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-about a {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Nunito Lt';
+}
+
+.button-about span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-about:hover span {
+  padding-right: 25px;
+}
+
+.button-about:hover span:after {
+  opacity: 1;
+  right: 0;
+}

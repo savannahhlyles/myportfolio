@@ -56,7 +56,7 @@ export default function About() {
             ─────────
             </p>
               <div className="button-container-about">
-                <button id="port" className="button">
+                <button id="port" className="button-about">
                     <span><a href='/myportfolio/#/Portfolio'>Take a look at what I've been working on.</a></span>
                 </button>
             </div>

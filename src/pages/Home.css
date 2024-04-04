@@ -81,6 +81,7 @@
 #boxes {
     transform: translateY(90px);
     padding-bottom: 1300px;
+    margin-bottom: -15%;
 }
 
 @font-face {
@@ -123,7 +124,7 @@
     width: 150px;
     cursor: pointer;
     margin-left: 78%;
-    top: -420px;
+    top: -205px;
     position: relative;
 }
 
@@ -176,7 +177,7 @@
 
 #crown {
     width: 500px;
-    top: -597px;
+    top: -380px;
     left: -0.10%;
     transform: translateY(90px);
 }
@@ -184,14 +185,13 @@
 #coding {
     width: 320px;
     left: 4.4%;
-    top: -585px;
+    top: -380px;
     transform: translateY(90px);
 }
 
 #resume {
     width: 305px;
-    margin-top: -900px;
-    top: -600px;
+    top: -380px;
     left: 15.5%;
     transform: translateY(90px);
 }
