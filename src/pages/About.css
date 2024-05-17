@@ -25,10 +25,8 @@
   .flexbox-container-about p {
     line-height: 2.25;
     font-size: 27px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: 40px;
     text-align: center;
-    margin-bottom: -10px;
     font-family: 'Nunito Lt';
   }
 
@@ -58,13 +56,13 @@
   text-align: center;
   font-family: Nunito Lt;
   font-size: 30px;
-  padding: 10px;
+  padding-bottom: 80px;
   width: 150px;
   cursor: pointer;
   margin-left: 78%;
-  top: 106%;
-  position: relative;
-  margin-bottom: -20px;
+  top: 114%;
+  position: absolute;
+
 }
 
 .button-about span {
@@ -96,4 +94,33 @@
 .button-about:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+#headshot {
+  height: auto;
+  max-width: 450px;
+  position: absolute;
+  top: 140px;
+  left: 60%;
+  box-shadow: 10px 10px 30px #262626;
+}
+
+#about1 {
+  width: 50%;
+  padding-top: 30px;
+  margin-left: 80px;
+  margin-bottom: -10px;
+}
+
+#about2 {
+  padding-top: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: -10px;
+}
+
+#about3 {
+  padding-top: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
 }

@@ -8,20 +8,10 @@ import crown from '../images/crowntransparent.png';
 import coding from '../images/coding.svg';
 import resume from '../images/resume.svg';
 
-export default function Home() {
+function Home() {
     useEffect(() => {
         AOS.init({
-            duration: 800,
-            easing: 'ease-out',
         });
-
-        // Add event listener for scroll
-        window.addEventListener('scroll', AOS.refresh);
-
-        // Cleanup event listener on component unmount
-        return () => {
-            window.removeEventListener('scroll', AOS.refresh);
-        };
     }, []);
 
     return (
@@ -64,3 +54,5 @@ export default function Home() {
         </>
     );
 }
+
+export default Home;
